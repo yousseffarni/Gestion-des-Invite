@@ -1,0 +1,98 @@
+.auth form .form-group {
+    margin-bottom: 5px;
+}
+.dahsboard .auth form .form-group .form-control, 
+.dahsboard .auth form .form-group select.form-control {
+    margin: 0;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    text-align: start;
+    border: 1px solid #00000038;
+    outline: 0;
+    padding-left: 56px;
+}
+select#exampleFormControlSelect2,
+select#Civilite_Input,
+select#Type_Invitation {
+    color: black;
+}
+
+.btn.BtnStyle,#BtnAjouter {
+    background: #1873cf;
+    color: #fff;
+}
+
+.btn.BtnStyle:hover,#BtnAjouter:hover {
+    background: gray;
+    color: #fff;
+}
+
+.dahsboard .input-group .input-group-text {
+    color: #617aa8;
+    font-size: 18px;
+    border: none;
+    background: transparent;
+    position: absolute;
+    height: 100%;
+    width: 40px;
+    z-index: 10;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.dahsboard .form-select, 
+.dahsboard .form-control {
+    background: #e5e5e5;
+    border: 3px solid;
+    height: 46px;
+    border-radius: 4px;
+    padding-left: 40px;
+    border-color: transparent;
+}
+
+.dahsboard .auth form .form-group .form-control:hover, 
+.dahsboard .auth form .form-group select.form-control:hover {
+    border: 2px solid #1873cf;
+}
+
+nav.navbar {
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.UnderHeaderFixer {
+    width: 100%;
+    height: 74px;
+    background: #fff;
+}
+
+.TableContainer {
+    height: 500px;
+    overflow: scroll;
+    box-shadow: 0px 1px 21px -5px #cdd1e1;
+}
+
+.dahsboard #BtnDelete{
+    background: #ff5c5c;
+    color: #fff;
+}
+
+.dahsboard #BtnEdit{
+    background: #1972b2;
+    color: #fff;
+}
+
+.dahsboard #BtnEdit:hover,.dahsboard #BtnDelete:hover{
+    background: gray;
+    color: #fff;
+}
+
+.dahsboard .auth .auth-form-light {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px 0px #00000047;
+}
+

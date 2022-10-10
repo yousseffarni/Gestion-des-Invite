@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+*{
+  font-family: 'Inter';    /*  Las Font Is 'Inter';  */
+}
+
+body.swal2-toast-shown .swal2-container {
+  z-index: 2100;
+}
+
+
+.swal2-popup.swal2-toast.swal2-show {
+  background: #fffffff0;
+}
+
+.swal2-container {
+  z-index: 2100;
+}
+
+.swal2-modal .swal2-close {
+    font-size: 50px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.swal2-container.swal2-center>.swal2-popup {
+    grid-column: 2;
+    grid-row: 2;
+    align-self: center;
+    justify-self: center;
+    padding-top: 28px;
+}
+
+.swal2-actions .swal2-loading {
+  color: #fff;
+  background: #fff;
+}
+
+button.btn {
+  background: #1972b2;
+  color: #fff;
+}
+
+.form-control::placeholder {
+  font-size: 14px;
+}
+
+label.form-label {
+  color: #6079a7;
+  font-size: 16px;
+  padding-bottom: 5px;
+  margin-bottom: 0;
+  text-transform: capitalize;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+

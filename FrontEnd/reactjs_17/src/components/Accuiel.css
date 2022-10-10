@@ -1,0 +1,12 @@
+.Accuiel .carousel-inner .carousel-item{
+    height:100%;
+}
+
+.Accuiel div#carouselExampleIndicators {
+    height: 100vh;
+  }
+  
+.Accuiel .carousel-inner .carousel-item img {
+    height: 100%;
+    object-fit: fill;
+}

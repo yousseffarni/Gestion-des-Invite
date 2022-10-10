@@ -1,0 +1,26 @@
+.navbar-expand-lg .navbar-nav .nav-link:hover {
+    background: #22a2df;
+    color: #fff;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 15px;
+    display: flex;
+    gap: 10px;
+    color: gray;
+    align-items: center;
+    border: 1px solid #00000029;
+}
+
+#LoginBtn{
+    color: #fff;
+    background: #19a2d0;
+}
+
+#LogOutBtn{
+    background: #ff8282;
+}
+
+#LoginBtn:hover,#LogOutBtn:hover{
+    background: #1784a9;
+}
+
